@@ -8,6 +8,7 @@ import Swal from "sweetalert2";
 //컴포넌트
 import INPUT from "../components/inputbox";
 import BUTTON from "../components/button";
+import GoogleButton from "../components/GoogleButton";
 
 const DIV = styled.div`
   border: solid 1px;
@@ -129,6 +130,7 @@ console.log(res.data);
           />
           <BUTTON className="submit" text="로그인!!!"></BUTTON>
       </form>
+      <GoogleButton />
     </DIV>
   );
 };
